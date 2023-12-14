@@ -1,3 +1,5 @@
+import MenuItem from "./components/MenuItem";
+
 const Header = () => {
     return (
         <header className='container-fluid'>
@@ -7,12 +9,10 @@ const Header = () => {
                 </div>
                 <nav className='col d-flex align-items-center'>
                     <ul className='d-flex list-unstyled align-items-center gap-3'>
-                        <li>
-                            <a href='#'>Services</a>
-                            <a href='#'>Works</a>
-                            <a href='#'>Blog</a>
-                            <a href='#'>Contact</a>
-                        </li>
+                        <MenuItem text="Services" />
+                        <MenuItem text="Work" />
+                        <MenuItem text="Blog" />
+                        <MenuItem text="Contact" />
                     </ul>
                 </nav>
             </div>
