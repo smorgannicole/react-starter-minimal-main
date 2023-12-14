@@ -1,9 +1,6 @@
 const Button = (props) => {
-    const handleButtonClick = (e) => {
-        alert("I've been clicked!")
-    }
     return (
-        <button onClick={handleButtonClick}
+        <button onClick={props.action}
             className={
                 props.ghost 
                 ? `btn btn-outline-${props.color ? props.color: "primary"} d-flex justify-content-center align-items-center gap-3` 
