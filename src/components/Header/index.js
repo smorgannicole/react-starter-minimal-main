@@ -1,6 +1,7 @@
 import MenuItem from "./components/MenuItem";
 
 const Header = () => {
+
     return (
         <header className='container-fluid'>
             <div className="row">
@@ -9,10 +10,10 @@ const Header = () => {
                 </div>
                 <nav className='col d-flex align-items-center'>
                     <ul className='d-flex list-unstyled align-items-center gap-3'>
-                        <MenuItem text="Services" />
-                        <MenuItem text="Work" />
-                        <MenuItem text="Blog" />
-                        <MenuItem text="Contact" />
+                        <MenuItem text="Services" link="#" />
+                        <MenuItem text="Work" link="#" />
+                        <MenuItem text="Blog" link="#" />
+                        <MenuItem text="Contact" link="#" />
                     </ul>
                 </nav>
             </div>
